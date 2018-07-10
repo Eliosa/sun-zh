@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>混合开发 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="app的三种开发模式 Native App 用纯代码编写，开发成本高，更新麻烦，优点是速度快，性能高，用户体验效果好。   Web App 直接加载web端网页，web App不等于移动网站的wap,优点：开发成本低，支持多平台，用户不用更新可直接使用最新版本。缺点：用户体验效果差，要求联网。   Hybrid App  -结合原生用户体验效果好和webAPP的可扩展性强的优势。  市场上主流AP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="混合开发">
+<meta property="og:url" content="https://eliosa.github.io/sun-zh/2018/07/10/hybird-app/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="app的三种开发模式 Native App 用纯代码编写，开发成本高，更新麻烦，优点是速度快，性能高，用户体验效果好。   Web App 直接加载web端网页，web App不等于移动网站的wap,优点：开发成本低，支持多平台，用户不用更新可直接使用最新版本。缺点：用户体验效果差，要求联网。   Hybrid App  -结合原生用户体验效果好和webAPP的可扩展性强的优势。  市场上主流AP">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-07-10T12:06:02.191Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="混合开发">
+<meta name="twitter:description" content="app的三种开发模式 Native App 用纯代码编写，开发成本高，更新麻烦，优点是速度快，性能高，用户体验效果好。   Web App 直接加载web端网页，web App不等于移动网站的wap,优点：开发成本低，支持多平台，用户不用更新可直接使用最新版本。缺点：用户体验效果差，要求联网。   Hybrid App  -结合原生用户体验效果好和webAPP的可扩展性强的优势。  市场上主流AP">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://eliosa.github.io/sun-zh"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hybird-app" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/07/10/hybird-app/" class="article-date">
+  <time datetime="2018-07-10T09:29:17.000Z" itemprop="datePublished">2018-07-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      混合开发
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="app的三种开发模式"><a href="#app的三种开发模式" class="headerlink" title="app的三种开发模式"></a>app的三种开发模式</h2><ul>
+<li><strong>Native App</strong><ul>
+<li>用纯代码编写，开发成本高，更新麻烦，优点是速度快，性能高，用户体验效果好。</li>
+</ul>
+</li>
+<li><strong>Web App</strong><ul>
+<li>直接加载web端网页，web App不等于移动网站的wap,优点：开发成本低，支持多平台，用户不用更新可直接使用最新版本。缺点：用户体验效果差，要求联网。</li>
+</ul>
+</li>
+<li><strong>Hybrid App</strong><br>  -结合原生用户体验效果好和webAPP的可扩展性强的优势。</li>
+</ul>
+<p>市场上主流APP的研究：</p>
+<ul>
+<li><strong>手机京东</strong>：这是一款Hybrid APP</li>
+<li><strong>淘宝</strong>：原生开发为主</li>
+<li><strong>支付宝</strong>：以原生开发为主，附带了一点点的Hybrid APP开发</li>
+</ul>
+<h2 id="Hybrid-App-的三种类型"><a href="#Hybrid-App-的三种类型" class="headerlink" title="Hybrid App 的三种类型"></a>Hybrid App 的三种类型</h2><p>Hybrid App按网页语言与程序语言的混合，通常分为三种类型：</p>
+<ul>
+<li><h4 id="多View混合型"><a href="#多View混合型" class="headerlink" title="多View混合型"></a><strong>多View混合型</strong></h4><ul>
+<li>即Native View和Web View独立展示，交替出现</li>
+</ul>
+</li>
+<li><h4 id="单View混合型"><a href="#单View混合型" class="headerlink" title="单View混合型"></a><strong>单View混合型</strong></h4><ul>
+<li>即在同一个View内，同时包括Native View和Web View。互相之间是覆盖(层叠)的关系。这种Hybrid App的开发成本较高，开发难度较大，但是体验较好。如百度搜索为代表的单View混合型移动应用，既可以实现充分的灵活性，又能实现较好的用户体验。</li>
+</ul>
+</li>
+<li><h4 id="Web主体型"><a href="#Web主体型" class="headerlink" title="Web主体型"></a><strong>Web主体型</strong></h4><ul>
+<li>即移动应用的主体是Web View，主要以网页语言编写，穿插Native功能的Hybrid App开发类型。这种类型开发的移动应用体验相对而言存在缺陷，但整体开发难度大幅降低，并且基本可以实现跨平台。</li>
+</ul>
+</li>
+</ul>
+<h2 id="Hybrid-App-开发框架"><a href="#Hybrid-App-开发框架" class="headerlink" title="Hybrid App 开发框架"></a>Hybrid App 开发框架</h2><p><a href="https://ionicframework.com/docs/" target="_blank" rel="noopener">ionic</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://eliosa.github.io/sun-zh/2018/07/10/hybird-app/" data-id="cjjfoumhn0003qgopgnn1p7ak" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/07/10/hexo-tutorial/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          hexo-tutorial
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/07/10/markdown/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">markdown 笔记</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Monthly-book/">Monthly-book</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Monthly-book/">Monthly-book</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/notes/">notes</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Monthly-book/" style="font-size: 10px;">Monthly-book</a> <a href="/tags/notes/" style="font-size: 10px;">notes</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">七月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/07/10/hexo-tutorial/">hexo-tutorial</a>
+          </li>
+        
+          <li>
+            <a href="/2018/07/10/hybird-app/">混合开发</a>
+          </li>
+        
+          <li>
+            <a href="/2018/07/10/markdown/">markdown 笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2018/07/07/BeingMortal/">BeingMortal</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/29/test/">test</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 eliosa sun<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
